@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family: 'IranSans';
+    src: url('../public/fonts/IRANSansWeb(FaNum).eot');
+}
+@font-face{
+    font-family: 'IranNastaliq';
+    src: url('../public/fonts/Iran Nastaliq.ttf');
+}
+
+::-webkit-scrollbar{
+    overflow: hidden;
+    width: 0;
+}
+
+body{
+    background-color: #f6f6f6;
+    direction: rtl;
+}
+
+.active{
+    background-color: rgb(190, 18, 60);
+    color: white;
+    padding: 0 10px;
+    border-radius: 15px;
+}

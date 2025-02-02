@@ -4,34 +4,34 @@ import HeaderMaroll from "./HeaderMaroll";
 import MenuMaroll from "./MenuMaroll";
 import { Link } from "react-router-dom";
 const foodAsli = [
-    {title:'بشقاب مخصوص مارول',describtion:'120 گرم استیک فیله گوساله و 250گرم استیک مرغ و 150 گرم ماهی سوخاری و پاستا آلفردو و سیب زمینی و دورچین', price:'570.000 ت', active: false},
-    {title:'بشقاب سوخاری',describtion:'2 تیکه فیله استریپس و ماهی سوخاری و پیاز سوخاری و قارچ سوخاری و سیب زمینی و سوسیس انگشتی', price:'350.000 ت', active: false},
-    {title:'مرغ سوخاری کلاسیک',describtion:'نصف مرغ 2/5 کیلویی سوخاری شده و سیب زمینی سرخ شده و سالادکلم و سس مخصوص', price:'285.000 ت', active: false},
-    {title:'استیک گوشت',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'435.000 ت', active: false},
-    {title:'استیک مرغ',describtion:'آیتم موردنظر بدون توضیحات میباشد', price:'290.000 ت', active: false},
+    {title:'بشقاب مخصوص مارول',describtion:'120 گرم استیک فیله گوساله و 250گرم استیک مرغ و 150 گرم ماهی سوخاری و پاستا آلفردو و سیب زمینی و دورچین', price:'627.000 ت', active: false},
+    {title:'بشقاب سوخاری',describtion:'2 تیکه فیله استریپس و ماهی سوخاری و پیاز سوخاری و قارچ سوخاری و سیب زمینی و سوسیس انگشتی', price:'388.000 ت', active: false},
+    {title:'مرغ سوخاری کلاسیک',describtion:'نصف مرغ 2/5 کیلویی سوخاری شده و سیب زمینی سرخ شده و سالادکلم و سس مخصوص', price:'295.000 ت', active: false},
+    {title:'استیک گوشت',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'475.000 ت', active: false},
+    {title:'استیک مرغ',describtion:'آیتم موردنظر بدون توضیحات میباشد', price:'320.000 ت', active: false},
 ];
 const pasta = [
-  {title:'بیف آلفردو',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'214.000 ت', active: false},
-  {title:'پاستامخصوص',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'218.000 ت', active: false},
-  {title:'چیکن آلفردو',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'189.000 ت', active: false},
-  {title:'لازانیا',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'228.000 ت', active: false},
+  {title:'بیف آلفردو',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'242.000 ت', active: false},
+  {title:'پاستامخصوص',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'247.000 ت', active: false},
+  {title:'چیکن آلفردو',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'220.000 ت', active: false},
+  {title:'لازانیا',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'259.000 ت', active: false},
   
 ];
 const kentaki = [
-  {title:'فیله استریپس',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'(2تیکه149ت)(4تیکه239ت)', active: false},
-  {title:'کنتاکی مرغ',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'(2تیکه189ت)(3تیکه239ت)', active: false},
-  {title:'دبل دان',describtion:'آیتم مورد نظربدون توضیحات میباشد', price:'236.000 ت', active: false},
-  {title:'چیکن چیلی چیز',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'238.000 ت', active: false},
-  {title:'فیش اندچیپس',describtion:'250گرم فیله ماهی سوخاری شده و سیب زمینی و سالادکلم و سس مخصوص', price:'268.000 ت', active: false},
+  {title:'فیله استریپس',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'(2تیکه169ت)(4تیکه289ت)', active: false},
+  {title:'کنتاکی مرغ',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'(2تیکه216ت)(3تیکه259ت)', active: false},
+  {title:'دبل دان',describtion:'آیتم مورد نظربدون توضیحات میباشد', price:'257.000 ت', active: false},
+  {title:'چیکن چیلی چیز',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'262.000 ت', active: false},
+  {title:'فیش اندچیپس',describtion:'250گرم فیله ماهی سوخاری شده و سیب زمینی و سالادکلم و سس مخصوص', price:'322.000 ت', active: false},
 ];
 const sandwichgril = [
-  {title:'برگرمخصوص مارول',describtion:'چیزبرگر و سیب زمینی سرخ شده و دورچین', price:'242.000 ت', active: false},
-  {title:'برگرکلاسیک',describtion:'آیتم انتخابی برگرکلاسیک:(بیکن12 ت)(قارچ12 ت)(پنیر10 ت)', price:'189.000 ت', active: false},
-  {title:'ساندویچ مخصوص مارول',describtion:'گوشت چرخ کرده و سینه مرغ و قارچ و پنیر', price:'195.000 ت', active: false},
-  {title:'ساندویچ فیله مرغ',describtion:'200گرم فیله مرغ و پنیر گودا', price:'168.000 ت', active: false},
-  {title:'میکس میت',describtion:'سینه مرغ گریل و برگرزغالی و پنیرگودا', price:'259.000 ت', active: false},
-  {title:'هات داگ ویژه',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'142.000 ت', active: false},
-  {title:'ژامبون',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'105.000 ت', active: false},
+  {title:'برگرمخصوص مارول',describtion:'چیزبرگر و سیب زمینی سرخ شده و دورچین', price:'249.000 ت', active: false},
+  {title:'برگرکلاسیک',describtion:'آیتم انتخابی برگرکلاسیک:(بیکن15 ت)(قارچ15 ت)(پنیر13 ت)', price:'198.000 ت', active: false},
+  {title:'ساندویچ مخصوص مارول',describtion:'گوشت چرخ کرده و سینه مرغ و قارچ و پنیر', price:'209.000 ت', active: false},
+  {title:'ساندویچ فیله مرغ',describtion:'200گرم فیله مرغ و پنیر گودا', price:'183.000 ت', active: false},
+  {title:'میکس میت',describtion:'سینه مرغ گریل و برگرزغالی و پنیرگودا', price:'285.000 ت', active: false},
+  {title:'هات داگ ویژه',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'156.000 ت', active: false},
+  {title:'ژامبون',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'122.000 ت', active: false},
   
 ];
 const FoodAsli = () => {
@@ -73,7 +73,7 @@ const FoodAsli = () => {
           <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">غذااصلی</p>
            {foodAsli.map((item)=>{
                 return <div className="bg-white rounded-lg shadow-black mb-2 shadow-sm" key={item.title}>
-                           <div className="flex bg-[rgba(255,255,255,0.9)] justify-between p-3">
+                           <div className="flex dark:bg-black dark:shadow-sm dark:shadow-white bg-[rgba(255,255,255,0.9)] justify-between p-3">
                              <h1 className="font-[IranSans] font-semibold">{item.title} </h1>
                              <h2 className="font-[IranSans] font-bold">{item.price} </h2>
                            </div>
@@ -130,7 +130,7 @@ export const PastaComponent = ({pasta,setpasta, kentakii, setkentakii, foodasli,
        <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">پاستا</p>
          {pasta.map((item)=>{
               return <div className="bg-white rounded-lg shadow-black mb-2 shadow-sm" key={item.title}>
-                         <div className="flex bg-[rgba(255,255,255,0.9)] justify-between p-3">
+                         <div className="flex dark:bg-black dark:shadow-sm dark:shadow-white bg-[rgba(255,255,255,0.9)] justify-between p-3">
                            <h1 className="font-[IranSans] font-semibold">{item.title} </h1>
                            <h2 className="font-[IranSans] font-bold">{item.price} </h2>
                          </div>
@@ -184,7 +184,7 @@ export const KfcComponent = ({kentakii,setkentakii, pasta, setpasta, foodasli, s
       <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">کنتاکی</p>
          {kentakii.map((item)=>{
               return <div className="bg-white rounded-lg shadow-black mb-2 shadow-sm" key={item.title}>
-                         <div className="flex bg-[rgba(255,255,255,0.9)] justify-between p-3">
+                         <div className="flex dark:bg-black dark:shadow-sm dark:shadow-white bg-[rgba(255,255,255,0.9)] justify-between p-3">
                            <h1 className="font-[IranSans] font-semibold">{item.title} </h1>
                            <h2 className="font-[IranSans] font-bold">{item.price} </h2>
                          </div>
@@ -241,7 +241,7 @@ return(
    <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">ساندویج و گریل</p>
      {sandwichh.map((item)=>{
           return <div className="bg-white rounded-lg shadow-black mb-2 shadow-sm" key={item.title}>
-                     <div className="flex bg-[rgba(255,255,255,0.9)] justify-between p-3">
+                     <div className="flex dark:bg-black dark:shadow-sm dark:shadow-white bg-[rgba(255,255,255,0.9)] justify-between p-3">
                        <h1 className="font-[IranSans] font-semibold">{item.title} </h1>
                        <h2 className="font-[IranSans] font-bold">{item.price} </h2>
                      </div>

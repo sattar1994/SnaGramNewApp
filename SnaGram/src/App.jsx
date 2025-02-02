@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import SnaGram from "./components/SnaGram";
 import About from './components/SnagramComponents/About';
 import MarollContainer from './components/MarollComponents/MarollContainer'; 
@@ -14,7 +14,7 @@ import BarGarmComponent from './components/MarollComponents/BarGarmComponent';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <Router>
          <Routes>
             <Route path='/' element={<SnaGram />} />
             <Route path='/درباره سنه گرام' element={<About /> } />
@@ -27,7 +27,7 @@ const App = () => {
             <Route path='/marollfood/بارسرد' element={<BarSardComponent /> } />
             <Route path='/marollfood/بارگرم' element={<BarGarmComponent /> } />
          </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 };

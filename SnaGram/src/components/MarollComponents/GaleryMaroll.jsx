@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion';
 
 const listImage = [
-    {image:"marollimages/bergermaroll.jpg"},
-    {image:"marollimages/pitz.jpg"},
-    {image:"marollimages/cacke.jpg"},
-    {image:"marollimages/mojito.jpg"},
-    {image:"marollimages/chicnchilichiz.jpg"},
-    {image:"marollimages/pitza.jpg"},
-    {image:"marollimages/redmojito.jpg"},
-    {image:"marollimages/sezarsalad.jpg"},
+    {image:"/images/fazamaroll.jpg"},
+    {image:"/images/bergermaroll.jpg"},
+    {image:"/images/pitz.jpg"},
+    {image:"/images/cacke.jpg"},
+    {image:"/images/mojito.jpg"},
+    {image:"/images/chicnchilichiz.jpg"},
+    {image:"/images/pitza.jpg"},
+    {image:"/images/redmojito.jpg"},
+    {image:"/images/sezarsalad.jpg"},
 ];
 const GaleryMaroll = () => {
     return(

@@ -10,7 +10,7 @@ import Wellcome from "./Wellcom";
 const MarollContainer = () => {
     return(
         <>
-         <div className="overflow-hidden">
+         <div className="overflow-hidden dark:bg-black dark:text-white">
          <HeaderMaroll />
          <Wellcome />
          <MenuMaroll />

@@ -1,7 +1,7 @@
 {
   "name": "snagram",
   "private": true,
-  "homepage": "https://snagram.ir/",
+  "homepage": "https://www.snagram.ir/",
   "author": "SattarMafakheri",
   "version": "0.0.0",
   "type": "module",
@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.1",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "motion": "^11.13.1",
+    "persian-date": "^1.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.2"

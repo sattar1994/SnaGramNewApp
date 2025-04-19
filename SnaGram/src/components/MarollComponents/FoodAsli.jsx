@@ -204,8 +204,6 @@ export const KfcComponent = ({kentakii,setkentakii, pasta, setpasta, foodasli, s
 export const Sandwich = ({pasta,setpasta, kentakii, setkentakii, foodasli, setfoodasli, sandwichh, setsandwichh}) => {
      
   const handelShow = (item) => {
-
-    
     kentakii.map((item)=>{
       return item.active = false
      })
@@ -238,7 +236,7 @@ export const Sandwich = ({pasta,setpasta, kentakii, setkentakii, foodasli, setfo
 return(
   <>
    <div>
-   <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">ساندویج و گریل</p>
+       <p className="font-[IranNastaliq] text-center text-[1.8rem] my-2">ساندویج و گریل</p>
      {sandwichh.map((item)=>{
           return <div className="bg-white rounded-lg shadow-black mb-2 shadow-sm" key={item.title}>
                      <div className="flex dark:bg-black dark:shadow-sm dark:shadow-white bg-[rgba(255,255,255,0.9)] justify-between p-3">
@@ -246,9 +244,9 @@ return(
                        <h2 className="font-[IranSans] font-bold">{item.price} </h2>
                      </div>
                      <button onClick={()=>handelShow(item)} className='font-[IranSans] px-2 text-[.9rem] m-2 bg-rose-700 text-white rounded-full'>توضیحات</button>
-                    <div  className={item.active ? 'block' : 'hidden'}>
-                    <div className='w-[100%] p-2 text-black rounded-md'>
-                     <span className=" font-[IranSans] text-[.8rem] md:text-[1rem]">{item.describtion} </span>
+                    <div className={item.active ? 'block' : 'hidden'}>
+                     <div className='w-[100%] p-2 text-black rounded-md'>
+                      <span className=" font-[IranSans] text-[.8rem] md:text-[1rem]">{item.describtion} </span>
                      </div>
                     </div>
           </div>

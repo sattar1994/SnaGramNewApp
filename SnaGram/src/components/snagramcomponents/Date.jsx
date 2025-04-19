@@ -14,7 +14,7 @@ const DateComponent = () => {
   }, [])
   return (
     <>
-      <motion.div initial={{y:'900px'}} animate={{y:'0'}} transition={{duration:'1', type:'spring'}} className="text-center flex items-center justify-around">
+      <motion.div initial={{y:'900px'}} animate={{y:'0'}} transition={{duration:'1', type:'spring'}} className="text-center flex items-center mt-2 justify-around shadow-sm shadow-black w-[90%] m-auto bg-white rounded-sm dark:text-black">
         <h1 className="font-[IranNastaliq] text-[1.7rem]"><span className="ml-1">امروز</span>{date.format("dddd YYYY/MM/DD")}</h1>
         <h1 className="font-[IranSans]">{date.format(" HH:mm:ss")}</h1>
       </motion.div>

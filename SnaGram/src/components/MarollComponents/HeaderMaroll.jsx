@@ -1,39 +1,27 @@
-import { motion, useScroll } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleLeft } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { faBars , faXmark } from '@fortawesome/free-solid-svg-icons';
+import MenuMobile from '../SnagramComponents/MenuMobile';
+import { useState } from 'react';
 const HeaderMaroll = () => {
-    const [moon, setMoon] = useState(localStorage.getItem('theme') === 'dark');
-    useEffect(()=>{
-        if(moon){
-            document.documentElement.classList.add("dark");
-            localStorage.setItem('theme', 'dark')
-        }else{
-            document.documentElement.classList.remove('dark');
-            localStorage.setItem('theme', 'light')
-        }
-    },[moon]);
-   
-
-    const handelDarkMode = () => {
-        setMoon(!moon);
-    }
-    const handelLightMode = () => {
-        setMoon(!moon);
-    }
+    const [showBurger, setShowBurger] = useState(true);
+    
     return(
         <>   
          
             <motion.div initial={{y:'-500px'}} animate={{y:'0'}} transition={{duration:.9,}} className="bg-white dark:bg-black dark:shadow-sm dark:shadow-white w-[90%] mx-auto m-2 p-2 rounded-md shadow-black shadow flex justify-between items-center">
              <h1 className="font-[IranNastaliq] dark:text-white text-[1.8rem] text-rose-700 ">سنه گرام</h1>
-            
-           
-            {moon ? <img onClick={()=>handelLightMode()} src="/images/sunicon.png" className='md:w-[3%] w-[12%] animate-bounce'/> : <img onClick={()=>handelDarkMode()} src="/images/moonicon.png" className='md:w-[3%] w-[12%] animate-bounce'/>}
-            
+
+             <span className='sm:hidden'>
+              { showBurger ? <FontAwesomeIcon onClick={()=>setShowBurger(false)}  size='xl' icon={faBars} />
+              :
+                   <FontAwesomeIcon onClick={()=>setShowBurger(true)}  size='xl' icon={faXmark} />}
+              </span>
+              {
+          showBurger ? null : <MenuMobile /> 
+        }
              
-             
-             <h1 className='text-rose-700 dark:text-white'><Link to={'/'}><FontAwesomeIcon icon={faCircleLeft} size='xl'  beatFade /></Link></h1>
+             {/* <h1 className='text-rose-700 dark:text-white'><Link to={'/'}><FontAwesomeIcon icon={faCircleLeft} size='xl' /></Link></h1> */}
         </motion.div>
         
         </>

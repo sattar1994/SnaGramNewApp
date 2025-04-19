@@ -4,15 +4,15 @@ import HeaderMaroll from "./HeaderMaroll";
 import MenuMaroll from "./MenuMaroll";
 
 const deserbastani = [
-  {title:'وافل مخصوص',price:'119.000 ت'},
-  {title:'وافل موزنوتلا',price:'105.000 ت'},
-  {title:'کیک رافاءلو',price:'65.000 ت'},
-  {title:'تیرامیسو',price:'64.000 ت'},
-  {title:'کیک شکلاتی',price:'62.000 ت'},
-  {title:'بستنی مارول',price:'102.000 ت'},
-  {title:'بستنی اسپیشیال',price:'90.000 ت'},
-  {title:'بستنی کلاسیک',price:'82.000 ت'},
-  {title:'انتخابی هر اسکوپ',price:'20.000 ت'},
+  {title:'وافل مخصوص',price:'129.000 ت'},
+  {title:'وافل موزنوتلا',price:'115.000 ت'},
+  {title:'کیک رافاءلو',price:'70.000 ت'},
+  {title:'تیرامیسو',price:'69.000 ت'},
+  {title:'کیک شکلاتی',price:'65.000 ت'},
+  {title:'بستنی مارول',price:'110.000 ت'},
+  {title:'بستنی اسپیشیال',price:'99.000 ت'},
+  {title:'بستنی کلاسیک',price:'90.000 ت'},
+  {title:'انتخابی هر اسکوپ',price:'22.000 ت'},
   
 ];
 const DeserBastaniComponent = () => {

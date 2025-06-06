@@ -7,10 +7,10 @@ const noshidaniSard = [
   {title:'پشن بری',price:'75.000 ت'},
   {title:'سافرون',price:'82.000 ت'},
   {title:'رزفلاور',price:'75.000 ت'},
-  {title:'ردموهیتو',price:'75.000 ت'},
-  {title:'بلوموهیتو',price:'75.000 ت'},
-  {title:'موهیتو',price:'67.000 ت'},
-  {title:'لیموناد',price:'64.000 ت'},
+  {title:'ردموهیتو',price:'77.000 ت'},
+  {title:'بلوموهیتو',price:'77.000 ت'},
+  {title:'موهیتو',price:'72.000 ت'},
+  {title:'لیموناد',price:'67.000 ت'},
   
 ];
 const smooti = [

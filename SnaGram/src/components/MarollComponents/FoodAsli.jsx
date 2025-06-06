@@ -4,34 +4,34 @@ import HeaderMaroll from "./HeaderMaroll";
 import MenuMaroll from "./MenuMaroll";
 import { Link } from "react-router-dom";
 const foodAsli = [
-    {title:'بشقاب مخصوص مارول',describtion:'120 گرم استیک فیله گوساله و 250گرم استیک مرغ و 150 گرم ماهی سوخاری و پاستا آلفردو و سیب زمینی و دورچین', price:'627.000 ت', active: false},
-    {title:'بشقاب سوخاری',describtion:'2 تیکه فیله استریپس و ماهی سوخاری و پیاز سوخاری و قارچ سوخاری و سیب زمینی و سوسیس انگشتی', price:'388.000 ت', active: false},
-    {title:'مرغ سوخاری کلاسیک',describtion:'نصف مرغ 2/5 کیلویی سوخاری شده و سیب زمینی سرخ شده و سالادکلم و سس مخصوص', price:'295.000 ت', active: false},
-    {title:'استیک گوشت',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'475.000 ت', active: false},
-    {title:'استیک مرغ',describtion:'آیتم موردنظر بدون توضیحات میباشد', price:'320.000 ت', active: false},
+    {title:'بشقاب مخصوص مارول',describtion:'120 گرم استیک فیله گوساله و 250گرم استیک مرغ و 150 گرم ماهی سوخاری و پاستا آلفردو و سیب زمینی و دورچین', price:'649.000 ت', active: false},
+    {title:'بشقاب سوخاری',describtion:'2 تیکه فیله استریپس و ماهی سوخاری و پیاز سوخاری و قارچ سوخاری و سیب زمینی و سوسیس انگشتی', price:'412.000 ت', active: false},
+    {title:'مرغ سوخاری کلاسیک',describtion:'نصف مرغ 2/5 کیلویی سوخاری شده و سیب زمینی سرخ شده و سالادکلم و سس مخصوص', price:'317.000 ت', active: false},
+    {title:'استیک گوشت',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'497.000 ت', active: false},
+    {title:'استیک مرغ',describtion:'آیتم موردنظر بدون توضیحات میباشد', price:'345.000 ت', active: false},
 ];
 const pasta = [
-  {title:'بیف آلفردو',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'242.000 ت', active: false},
-  {title:'پاستامخصوص',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'247.000 ت', active: false},
-  {title:'چیکن آلفردو',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'220.000 ت', active: false},
-  {title:'لازانیا',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'259.000 ت', active: false},
+  {title:'بیف آلفردو',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'259.000 ت', active: false},
+  {title:'پاستامخصوص',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'265.000 ت', active: false},
+  {title:'چیکن آلفردو',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'239.000 ت', active: false},
+  {title:'لازانیا',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'275.000 ت', active: false},
   
 ];
 const kentaki = [
-  {title:'فیله استریپس',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'(2تیکه169ت)(4تیکه289ت)', active: false},
-  {title:'کنتاکی مرغ',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'(2تیکه216ت)(3تیکه259ت)', active: false},
-  {title:'دبل دان',describtion:'آیتم مورد نظربدون توضیحات میباشد', price:'257.000 ت', active: false},
-  {title:'چیکن چیلی چیز',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'262.000 ت', active: false},
-  {title:'فیش اندچیپس',describtion:'250گرم فیله ماهی سوخاری شده و سیب زمینی و سالادکلم و سس مخصوص', price:'322.000 ت', active: false},
+  {title:'فیله استریپس',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'(2تیکه194ت)(4تیکه315ت)', active: false},
+  {title:'کنتاکی مرغ',describtion:'آیتم مورد نظر بدون توضیحات میباشد', price:'(2تیکه234ت)(3تیکه293ت)', active: false},
+  {title:'دبل دان',describtion:'آیتم مورد نظربدون توضیحات میباشد', price:'274.000 ت', active: false},
+  {title:'چیکن چیلی چیز',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'277.000 ت', active: false},
+  {title:'فیش اندچیپس',describtion:'250گرم فیله ماهی سوخاری شده و سیب زمینی و سالادکلم و سس مخصوص', price:'377.000 ت', active: false},
 ];
 const sandwichgril = [
-  {title:'برگرمخصوص مارول',describtion:'چیزبرگر و سیب زمینی سرخ شده و دورچین', price:'249.000 ت', active: false},
-  {title:'برگرکلاسیک',describtion:'آیتم انتخابی برگرکلاسیک:(بیکن15 ت)(قارچ15 ت)(پنیر13 ت)', price:'198.000 ت', active: false},
-  {title:'ساندویچ مخصوص مارول',describtion:'گوشت چرخ کرده و سینه مرغ و قارچ و پنیر', price:'209.000 ت', active: false},
-  {title:'ساندویچ فیله مرغ',describtion:'200گرم فیله مرغ و پنیر گودا', price:'183.000 ت', active: false},
-  {title:'میکس میت',describtion:'سینه مرغ گریل و برگرزغالی و پنیرگودا', price:'285.000 ت', active: false},
-  {title:'هات داگ ویژه',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'156.000 ت', active: false},
-  {title:'ژامبون',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'122.000 ت', active: false},
+  {title:'برگرمخصوص مارول',describtion:'چیزبرگر و سیب زمینی سرخ شده و دورچین', price:'267.000 ت', active: false},
+  {title:'برگرکلاسیک',describtion:'آیتم انتخابی برگرکلاسیک:(بیکن15 ت)(قارچ15 ت)(پنیر13 ت)', price:'209.000 ت', active: false},
+  {title:'ساندویچ مخصوص مارول',describtion:'گوشت چرخ کرده و سینه مرغ و قارچ و پنیر', price:'219.000 ت', active: false},
+  {title:'ساندویچ فیله مرغ',describtion:'200گرم فیله مرغ و پنیر گودا', price:'194.000 ت', active: false},
+  {title:'میکس میت',describtion:'سینه مرغ گریل و برگرزغالی و پنیرگودا', price:'295.000 ت', active: false},
+  {title:'هات داگ ویژه',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'167.000 ت', active: false},
+  {title:'ژامبون',describtion:'آیتم موردنظربدون توضیحات میباشد', price:'134.000 ت', active: false},
   
 ];
 const FoodAsli = () => {

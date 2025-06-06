@@ -4,11 +4,11 @@
 
 @font-face{
     font-family: 'IranSans';
-    src: url('./fonts/IRANSansWeb\(FaNum\).woff2');
+    src: url('/fonts/IRANSansWeb\(FaNum\).woff2');
 }
 @font-face{
     font-family: 'IranNastaliq';
-    src: url('./fonts/Iran Nastaliq.ttf');
+    src: url('/fonts/Iran Nastaliq.ttf');
 }
 
 ::-webkit-scrollbar{
